@@ -1,0 +1,143 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	height: 100vh;
+	font-family: 'Playfair Display', serif;
+	overflow-y: scroll;
+}
+/* SIDEBAR LAYOUT SETUP */
+.h-elements {
+	color: #fff;
+	word-spacing: 0.2rem;
+	letter-spacing: 0.04rem;
+	font-weight: 300;
+}
+.image {
+	height: 150px;
+	width: 150px;
+	background-image: url('images/headshot.jpg');
+	background-size: cover;
+	border-radius: 50%;
+	margin-top: 3rem;
+	color: lightgray;
+}
+.grid-setup {
+	background-image: url('images/background.jpg');
+	background-size: cover;
+
+	display: grid;
+	grid-template-columns: 2fr 6fr;
+}
+.sidebar {
+	height: 100vh;
+	margin: auto;
+	background-color: rgba(190, 29, 0, 0.7);
+}
+.headshot-and-name {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.navbar-section {
+	margin-left: 2.5rem;
+	margin-top: 4rem;
+}
+.footer-section {
+	margin-top: 3rem;
+	margin-left: 40px;
+}
+
+/* SIDEBAR LAYOUT SETUP END */
+
+/* NAV LINKS SETUP */
+.nav-items {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	list-style: none;
+	padding: 0.5rem 0;
+	font-weight: 500;
+}
+.nav-items a {
+	text-decoration: none;
+	color: inherit;
+}
+.nav-linkspadding {
+	padding-bottom: 1.3rem;
+}
+/* NAV LINKS SETUP END */
+
+/* MAIN PAGE */
+
+.main-page {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+	padding: 9rem 0 0 4rem;
+}
+
+/* MAIN PAGE END */
+
+/* footer section */
+
+.footer-section p {
+	color: lightgray;
+	font-size: 0.9rem;
+}
+.icons {
+	padding-top: 1rem;
+}
+.icons i {
+	padding-left: 0.6rem;
+	color: rgba(207, 207, 207, 0.9);
+}
+.flex-main {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.title {
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+}
+.title h1 {
+	color: #fff;
+	font-size: 3rem;
+}
+.title h2 {
+	color: #fff;
+	font-size: 2rem;
+}
+/* BUTTONS */
+
+.button-section {
+	padding-top: 4rem;
+	display: flex;
+	flex-direction: row;
+}
+.cta {
+	font-size: 28px;
+	padding: 0.4rem 1.5rem;
+	margin-right: 15px;
+	text-align: center;
+	border: 2px solid black;
+	text-decoration: none;
+	color: inherit;
+	background-color: rgba(255, 255, 255, 0.6);
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+	transition: 0.1s ease-in;
+}
+
+.cta:hover {
+	background-color: rgba(255, 255, 255, 0.99);
+}
+
+/* BUTTONS END */
+/* footer section end */

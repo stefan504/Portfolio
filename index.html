@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stefan Ilic</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+      integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- nav-bar  -->
+    <section id="nav-bar" class="container">
+      <header class="nav-bar">
+        <div class="brand">
+          <img class="potpis" src="./images/potpis.png"/>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#hire">Hire Me</a></li>
+          </ul>
+        </div>
+      </header>
+    </section>
+    <!-- End nav-bar  -->
+
+    <!-- Hero Section  -->
+    <section id="hero" class="hero container">
+      <div class="hero-info">
+        <h1 class="hero-info-heading">I Design <br /><span class = 'red'>Your Dream</span></h1>
+        <p class="hero-info-subheading" id='typewriter-container' >I am</p>
+        <a href="portfolio.html" type="button" class="hero-info-button">Portfolio</a>
+      </div>
+      <div class="hero-img">
+        <img src="./images/1.jpg" alt="" />
+      </div>
+    </section>
+    <!-- End Hero Section  -->
+
+    <!-- About section  -->
+    <section id="about" class="about container">
+      <div class="about-info">
+        <h1 class="about-info-heading">About Me</h1>
+        <p class="about-info-desc">
+         I am Stefan Ilic, Front-end Web developer based in Serbia. <br>
+         I help businesses, small agencies, and designers make their ideas come to life using 
+         diverse set of skills in Web Development.
+
+        </p>
+        <a href="Stefan Ilic CV.pdf" type="button" class="about-info-button" download>Download Resume</a>
+      </div>
+      <div class="about-img">
+        <div class="about-img-wrapper">
+          <img src="./images/img-2.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- End About section  -->
+
+    <!-- Service Section  -->
+    <section id="services" class="services container">
+      <div class="services-header">
+        <h1 class="services-header-heading">services</h1>
+        <p class="services-header-desc">
+          If you need to develop a new web application, support an already existing one, or turn the design into a live web page I can help you with all of that.
+
+        </p>
+      </div>
+      <div class="services-info">
+        <div class="service">
+          <div class="service-card">
+            <div class="service-front">
+              <i class="fa fa-palette"></i>
+              <h1 class="service-front-heading">UI/UX Design</h1>
+            </div>
+            <div class="service-back">
+              <h1 class="service-back-heading">UI/UX Design</h1>
+              <p class="service-back-desc">
+                UI/UX involves planning and iterating a site's structure and layout. Once the proper information architecture is in place, I design the visual layer to create a beautiful user experience.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="service">
+          <div class="service-card">
+            <div class="service-front">
+              <i class="fa fa-laptop-code"></i>
+              <h1 class="service-front-heading">Front End Dev</h1>
+            </div>
+            <div class="service-back">
+              <h1 class="service-back-heading">Front End Dev</h1>
+              <p class="service-back-desc">
+                Front End Development is building out the visual components of a website. Using HTML, CSS , and Javascript, I build fast, interactive websites. This also may include a CMS, API's or other integrations.</p>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="service">
+          <div class="service-card">
+            <div class="service-front">
+              <i class="fa fa-building"></i>
+              <h1 class="service-front-heading">Branding</h1>
+            </div>
+            <div class="service-back">
+              <h1 class="service-back-heading">Branding</h1>
+              <p class="service-back-desc">
+                Brand building is to generate awareness about your business using strategies and campaigns with the goal of creating a unique and lasting image in the marketplace.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Service Section  -->
+
+    <!-- Hire Section  -->
+    <section id="hire" class="hire container">
+      <h1 class="hire-heading">Hire me to build your dream website</h1>
+      <a href="#" type="button" class="hire-button">Hire Me !!</a>
+    </section>
+<section class='contact'>
+
+  <h1>Contact me!</h1>
+  <form onclick="submitForm"class="contact-form"  action="https://formspree.io/f/mrgrbavk" method="POST">
+    <input type="text" class="contact-form-text" placeholder="FIRST NAME">
+    <input type="text" class="contact-form-text" placeholder="LAST NAME">
+    <input type="email" class="contact-form-text" placeholder="EMAIL" name="_replyto">
+    <textarea class="contact-form-text" placeholder="Your message..." name='message'></textarea>
+    <button type="submit" class="contact-form-btn" value="Send">Send</button>
+  </form>
+</div>
+</section>
+
+    </section>
+    <!-- End Hire Section  -->
+
+    <!-- Footer section  -->
+    <footer id="footer" class="footer container">
+      <div class="footer-contact">
+        <h1 class="footer-contact-heading">Contact Me</h1>
+        <p class="footer-contact-info">Email: stefan.ilic5044@gmail.com</p>
+        <p class="footer-contact-info">Mobile: +381/693836506</p>
+      </div>
+      <div class="footer-social-follow">
+				<h1 class="footer-social-follow-heading">Follow Me</h1>
+				<div class="social-media">
+					<a href='https://www.linkedin.com/in/stefan-ilic-55b643197'><i  class="fab fa-linkedin fa-4x"></i></a>
+					<a href="https://github.com/stefan504"><i class="fab fa-github fa-4x"></i></a>
+				
+				
+					
+				</div>
+			</div>
+    </footer>
+    <!-- End Footer section  -->
+    
+    
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    
+    <script  src="./script.js"></script>
+    <script  src="./app.js"></script>
+
+
+     
+    
+  </body>
+</html>
