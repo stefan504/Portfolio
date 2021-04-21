@@ -37,14 +37,14 @@ body {
 }
 .image-holder {
 	position: relative;
-	max-height: 380px;;
+	max-height: 380px;
 }
 
 .image-holder img {
 	filter: brightness(90%);
 	width: 100%;
-    max-height: 380px;
-  }
+	max-height: 380px;
+}
 
 .overlay {
 	position: absolute;
@@ -103,7 +103,6 @@ body {
 }
 @media only screen and (max-width: 550px) {
 	.overlay .btn {
-		
 		color: #e23b2c;
 		font-size: 14px;
 		padding: 1rem;
@@ -112,19 +111,17 @@ body {
 		transition: 0.3s ease-in-out;
 	}
 	.overlay-text {
-		font-size:0.2rem;
+		font-size: 0.2rem;
 	}
-	.card-holder{
-		padding:1.3rem;
+	.card-holder {
+		padding: 1.3rem;
 	}
-	
 }
-
 
 /* sm */
 
 .social-media {
-	padding-top:2rem;
+	padding-top: 2rem;
 	display: flex;
 	justify-content: space-around;
 }
@@ -150,4 +147,50 @@ body {
 	color: #fffc00;
 }
 .social-media .fa-twitter:hover {
-	color: #00acee
+	color: #00acee;
+}
+/* MEDIA QUEIRES */
+
+@media (max-width: 490px) {
+	.portfolio h1 {
+		font-size: 30px;
+		color: #fff;
+		padding-top: 3rem;
+		font-weight: 400;
+	}
+
+	.card-holder {
+		min-height: 200px;
+		margin: 1rem 5%;
+		padding: 1.3rem;
+		background-color: black;
+		box-shadow: 2px 4px 40px black;
+	}
+	.image-holder {
+		position: relative;
+		height: 100%;
+	}
+
+	.image-holder img {
+		filter: brightness(90%);
+		width: 100%;
+		height: 100%;
+		max-height: 380px;
+	}
+
+	.overlay-text {
+		width: 50%;
+		text-align-last: center;
+		padding-top: 10px;
+		overflow: hidden;
+	}
+
+	.overlay-text p {
+		font-size: 12px;
+	}
+
+	.overlay .btn {
+		font-size: 17px;
+		padding: 1rem;
+	}
+}
