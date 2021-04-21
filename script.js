@@ -1,11 +1,10 @@
 'use strict';
 
-function submitForm() {
-	const form = document.querySelector('.contact-form');
+const formFunc = () => {
 	form.submit();
 	form.reset();
 	return false;
-}
+};
 
 var app = document.getElementById('typewriter-container');
 
@@ -17,12 +16,12 @@ var typewriter = new Typewriter(app, {
 typewriter
 	.pauseFor(500)
 	.typeString(
-		'I am  <span style="color: #008cff;"><strong>web developer</strong></span>'
+		'I am  <span style="color: #fff;"><strong>web developer.</strong></span>'
 	)
 	.pauseFor(300)
-	.deleteChars(13)
+	.deleteChars(14)
 	.typeString(
-		'<span style="color: #27ae60;"><strong>UI/UX Designer</strong></span>'
+		'<span style="color: #fff;"><strong>UI<span style="color:#ff4332">/</span>UX Designer.</strong></span>'
 	)
 
 	.pauseFor(1000)
