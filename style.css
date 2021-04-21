@@ -376,7 +376,7 @@ html {
 	text-align: center;
 }
 .services .services-info .service:nth-child(2) .service-card .service-front {
-	background-image: url(./images/img-23.jpg);
+	background-image: url(./images/img-233.jpg);
 	background-size: cover;
 	position: relative;
 	color: white;
@@ -396,7 +396,7 @@ html {
 	z-index: -1;
 }
 .services .services-info .service:nth-child(2) .service-card .service-front i {
-	color: #ff4332;
+	color: #000000;
 }
 /* End Services section  */
 
