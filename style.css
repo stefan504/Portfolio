@@ -626,4 +626,9 @@ textarea.contact-form-text {
 		letter-spacing: 0.8rem;
 	}
 }
-/* End Media Query For Desktop Only  */
+
+@media (max-width: 690px) {
+	.nav-bar {
+		padding: 1rem 1.5rem;
+	}
+} /* End Media Query For Desktop Only  */
