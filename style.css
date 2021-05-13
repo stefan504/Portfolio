@@ -13,6 +13,7 @@
 	color: #ff4332;
 }
 .potpis {
+	padding-top: 1.5rem;
 	width: 70%;
 	height: auto;
 }
@@ -560,7 +561,7 @@ textarea.contact-form-text {
 		display: none;
 	}
 }
-@media only screen and (min-width: 912px) {
+@media only screen and (min-width: 1041px) {
 	.nav-bar .nav-list .hamburger {
 		display: none;
 	}
