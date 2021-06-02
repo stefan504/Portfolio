@@ -27,6 +27,7 @@ body {
 	width: 100%;
 	background-color: rgb(65, 65, 65);
 	padding: 4rem 0;
+	align-items: center;
 }
 
 .card-holder {
